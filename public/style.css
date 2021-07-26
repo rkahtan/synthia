@@ -2,20 +2,22 @@ body {
   font-family: sans-serif;
 }
 
-a {
-  text-decoration: none;
+.note {
+  height: 100%;
+  width: 50px;
+  background: white;
+  float: left;
+  border-right: 1px solid black;
+  position: relative;
+  border-radius: 50%;
+
 }
 
-label {
-  display: block;
-}
-
-nav a {
-  display: inline-block;
-  margin: 1em;
-}
-
-form div {
-  margin: 1em;
-  display: inline-block;
+.sharp {
+  position: absolute;
+  height: 65%;
+  width: 55%;
+  z-index: 1;
+  background: black;
+  left: 68%;
 }
