@@ -24,3 +24,12 @@ body {
   background: black;
   left: 68%;
 }
+
+iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:40vw;
+  height:20vw;
+
+}
