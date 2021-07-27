@@ -13,7 +13,6 @@ body {
   border-right: 1px solid black;
   position: relative;
   border-radius: 50%;
-
 }
 
 .sharp {
@@ -46,5 +45,13 @@ button {
   background-color: orange;
   box-shadow: 5px 10px #cc7000;
   border: none
+}
+
+@media(max-width: 600px) {
+  button {
+    width: 100px;
+    padding: 25px;
+    margin: 20px;
+  }
 }
 
