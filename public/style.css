@@ -31,5 +31,20 @@ iframe {
   right: 0;
   width:40vw;
   height:20vw;
-
 }
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 150px;
+  padding: 50px;
+  margin: 40px;
+  border-radius: 50%;
+  background-color: orange;
+  box-shadow: 5px 10px #cc7000;
+  border: none
+}
+
